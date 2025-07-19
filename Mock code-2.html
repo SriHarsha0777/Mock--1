@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 40%;
+        }
+        form {
+            background-color: bisque;
+        }
+        span {
+            display: inline-block;
+            width: 150px;
+            margin-left: 50px;
+        }
+        input{
+            height: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="get">
+        <br><br>    
+        <span>Roll No.:</span>
+        <input type="text" style="width: 310px;">
+        <br><br>
+        <span>Student Name:</span>
+        <input type="text" placeholder="First Name" style="width: 150px;">
+        <input type="text" placeholder="Last Name" style="width: 150px;">
+        <br><br>
+        <span>Father's Name:</span>
+        <input type="text" style="width: 310px;">
+        <br><br>
+        <span>Date of Birth :</span>
+        <input type="text" placeholder="Day" style="width: 40px;"> -
+        <input type="text" placeholder="Month" style="width: 55px;"> -
+        <input type="text" placeholder="Year" style="width: 75px;">
+        <lable>(DD-MM-YYYY)</lable>
+        <br><br>
+        <span>Mobile No :</span>
+        <input type="text" value="+91" readonly style="width: 40px;">
+        <input type="number" pattern="[6-9][0-9]{9}" style="width: 260px;">
+        <br><br>
+        <span>Email id :</span>
+        <input type="email" style="width: 310px;">
+        <br><br>
+        <span>Password :</span>
+        <input type="password" style="width: 310px;">
+        <br><br>
+        <span>Gender :</span>
+        <input type="radio" style="height: 13px;">Male
+        <input type="radio" style="height: 13px;">Female
+        <br><br>
+        <span>Department :</span>
+        <input type="checkbox" style="height: 13px;">CSE
+        <input type="checkbox" style="height: 13px;">IT
+        <input type="checkbox" style="height: 13px;">ECE
+        <input type="checkbox" style="height: 13px;">Civil
+        <input type="checkbox" style="height: 13px;">Mech
+        <br><br>
+        <span>Course :</span>
+        <select name="course" id="Course" style="width: 310px; height: 30px;">
+            <option value="">----Select Course---</option>
+            <option value="">CS</option>
+            <option value="">AIML</option>
+            <option value="">DS</option>
+            <option value="">CC</option>
+        </select>
+        <br><br>
+        <span>Student photo :</span>
+        <input type="file">
+        <br><br>
+        <span>City :</span>
+        <input type="text" style="width: 310px;">
+        <br><br>
+        <span>Address :</span>
+        <input type="address" style="width: 310px;">
+        <br><br>
+        <br>
+        <input type="button" value="Register" style="margin-left: 250px;">
+    </form>
+</body>
+</html>
